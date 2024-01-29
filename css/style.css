@@ -1,0 +1,101 @@
+/*   ------------------SIDE BAR SECTION -----------  */
+#side-bar{
+    z-index: 1000;
+
+}
+
+.links li  {
+overflow: hidden;
+    
+    
+
+}
+.links li ,i {
+    cursor: pointer;
+    
+}
+.sideNav{
+    width: 300px;
+    white-space:nowrap;
+    min-height: 100vh;
+    
+}
+#sideNav{
+    display: none;
+    
+}
+
+.side-barIcons{
+    width: 50px;
+    min-height:100vh ;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 10px 0;
+   
+    background-color: brown;
+
+}
+
+
+/*   ------------------SEARCH SECTION -----------  */
+
+input::placeholder{
+    color: white !important 
+    ;
+}
+
+/* ---------------Categories SECTION ----------- */
+.card{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 5px;
+   
+}
+.card:hover .desc{
+    top: 0;
+}
+.desc{
+    background-color:rgba(255, 255, 255, 0.479) ;
+    text-align: center;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    position: absolute;
+    height: 100%;
+    top: 100%;
+    transition: all 1s;
+    border: 1px solid transparent;
+    width: 98%;
+   
+}
+.desc p{
+    font-size: 12px;
+    padding: 5px 20px;
+    font-weight: 600;
+}
+
+ .imgCatg img{
+ border-radius: 5px;
+} 
+
+
+/* ---------------Categories SECTION ----------- */
+
+.ingr{
+    height: 200px;
+    
+    overflow: hidden;
+
+}
+
+
+
+
+
+#homeData input::placeholder{
+    color: black !important 
+    ;
+}
